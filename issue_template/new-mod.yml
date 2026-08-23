@@ -13,6 +13,12 @@ body:
       placeholder: https://nexusmods.com/mod/1
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Mod Descrption
+
+    visible: [content]
   - type: textarea
     id: mod_desc
     attributes:
