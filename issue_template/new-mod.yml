@@ -1,0 +1,15 @@
+name: New Mod
+about: Sugges a new mod for the list.
+title: "[Mod]: "
+body:
+  - type: markdown
+    attributes:
+      value: Tell us about the mod you'd like to see added.
+  - type: input
+    id: nexuslink
+    attributes:
+      label: Mod Link
+      description: Please provide a link to the mod - Nexusmods, Google Drive, ect.
+      placeholder: https://nexusmods.com/mod/1
+    validations:
+      required: true
