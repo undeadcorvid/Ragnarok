@@ -39,6 +39,7 @@ body:
     attributes:
       value: |
         ### Mod Integration
+    visible: [content]
   - type: textarea
     id: mod_just
     attributes:
@@ -50,5 +51,6 @@ body:
     id: mod_int
     attributes:
       label: Integration Suggestions
+      hide_label: true
       description: If there are any ideas for how to integrate this mod, expand upon it, ect. please place them here
       placeholder: Lucien has some very nice replacers we should consider, such as 'A makeover for Lucien', and an animation replacer. We could add a level requirement (he's not just going to travel with a Lv 1 character! He wants a guardian and mentor!) He has patches to make him more compatible with the seasons mods, so his Saturalia lines trigger during Saturalia. He also has patches for Kaidan, the Anniversary Edition CC mods, and more.
