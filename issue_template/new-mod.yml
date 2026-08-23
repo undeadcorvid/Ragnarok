@@ -16,12 +16,39 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Mod Descrption
-
+        ### Mod Description
     visible: [content]
+  - type: textarea
+    id: mod_img
+    attributes:
+      label: Mod Images
+      hide_label: true
+      description: If there are any pertinent images to this mod, please add them here.
+    validations:
+      required: false
   - type: textarea
     id: mod_desc
     attributes:
       label: Mod Description
+      hide_label: true
       description: Please copy and paste the mod's 'summary' section here (on the Nexus, it's above the 'Share' and 'Report Abuse' buttons). If it's not a mod on the Nexus, please provide a short description.
       placeholder: Lucien is a fully voiced Imperial follower with over 6000 lines of immersive, lore-friendly dialogue. Though he arrives in Skyrim as a cowardly scholar, he'll gradually gain strength and confidence by your side until he grows into a hero in his own right.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Mod Integration
+  - type: textarea
+    id: mod_just
+    attributes:
+      label: Mod Justification
+      hide_label: true
+      description: Please provide a short justification for why we should consider this mod
+      placeholder: Lucien is a very in-depth follower which could be a good candidate for the 'Follower Companions' project.
+  - type: textarea
+    id: mod_int
+    attributes:
+      label: Integration Suggestions
+      description: If there are any ideas for how to integrate this mod, expand upon it, ect. please place them here
+      placeholder: Lucien has some very nice replacers we should consider, such as 'A makeover for Lucien', and an animation replacer. We could add a level requirement (he's not just going to travel with a Lv 1 character! He wants a guardian and mentor!) He has patches to make him more compatible with the seasons mods, so his Saturalia lines trigger during Saturalia. He also has patches for Kaidan, the Anniversary Edition CC mods, and more.
