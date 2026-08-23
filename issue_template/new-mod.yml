@@ -13,3 +13,9 @@ body:
       placeholder: https://nexusmods.com/mod/1
     validations:
       required: true
+  - type: textarea
+    id: mod_desc
+    attributes:
+      label: Mod Description
+      description: Please copy and paste the mod's 'summary' section here (on the Nexus, it's above the 'Share' and 'Report Abuse' buttons). If it's not a mod on the Nexus, please provide a short description.
+      placeholder: Lucien is a fully voiced Imperial follower with over 6000 lines of immersive, lore-friendly dialogue. Though he arrives in Skyrim as a cowardly scholar, he'll gradually gain strength and confidence by your side until he grows into a hero in his own right.
