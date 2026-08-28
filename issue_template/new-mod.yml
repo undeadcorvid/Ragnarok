@@ -54,3 +54,41 @@ body:
       hide_label: true
       description: If there are any ideas for how to integrate this mod, expand upon it, ect. please place them here
       placeholder: Lucien has some very nice replacers we should consider, such as 'A makeover for Lucien', and an animation replacer. We could add a level requirement (he's not just going to travel with a Lv 1 character! He wants a guardian and mentor!) He has patches to make him more compatible with the seasons mods, so his Saturalia lines trigger during Saturalia. He also has patches for Kaidan, the Anniversary Edition CC mods, and more.
+  - type: markdown
+    attributes:
+      value: |
+        ## List Author To-Do
+        
+        **Assessment**
+
+        - [ ] Consider mod's alignment with list's goals. 
+            - Does this fit with the intended play-style?
+            - Does this fit with the intended visual aesthetic?
+            - Does this integrate well with any existing technical infrastructure?
+            - If no to any of the above, should we reject it?
+        - [ ] Assign labels and milestones.
+        - [ ] Assess for any AI usage.
+        - [ ] Read the mod-page thoroughly and fill out the 'Initial Technical Assessment' form below.
+            - Does this mod clash with any we already use? 
+            - If so, is there anything we can do for compatibility?
+            - If not, does this mod clash with anything we might intend to use?
+        - [ ] Add Label 'Assessed'.
+        
+        ## Initial Technical Assessment
+        
+        **Required Mods** 
+
+        * No Requirement/SKSE
+
+        **Install Method**
+
+        * Install as normal/Install as root/Something else
+
+        **Known compatability**
+
+        * No Incompatibilities/Something else
+
+        **Known LOOT/Load Order Requirements**
+
+        * Can be loaded anywhere.
+    visible: [content]
