@@ -1,16 +1,24 @@
+# MO2 base folders
+
 /Mod Organizer 2/dlls
-*.exe
 /Mod Organizer 2/game
 /Mod Organizer 2/plugins
 /Mod Organizer 2/stylesheets
 /Mod Organizer 2/translations
-*.dll
 /Mod Organizer 2/explorer++
 /Mod Organizer 2/licenses
 /Mod Organizer 2/logs
-Mod Organizer 2/dump_running_process.bat
 /Mod Organizer 2/qml
 /Mod Organizer 2/resources
 /Mod Organizer 2/tutorials
 /Mod Organizer 2/webcache
+
+# MO2 files
+
 Mod Organizer 2/unins000.dat
+Mod Organizer 2/dump_running_process.bat
+
+# Extensions
+
+*.exe
+*.dll
